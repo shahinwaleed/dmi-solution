@@ -1,1 +1,4 @@
-# dmi-solution
+# dmi-demo
+1. `todo.spec.js` I am adding a new random todo task from `data\taskList.js` using the `helper\randomSelector.js` function at runtime. Validating that list has the task tha was created. Then removing the task and validating that list of tasks no longer contains the random selected value. I want to confrim that functionality works for create and delete.
+
+2. `networkRequest.sepc.js` at run time trying to ensure that `https://todo-backend-sanic.herokuapp.com/todo/12` is returing a 200 response code to ensure that api is accessable. However, it doesn't always comes back as expected. Assuming that this is an actual api that requires for frontend component rendering then when we don't get 200 response we can assess if the server is down or api route is wrong and needs to be corrected.

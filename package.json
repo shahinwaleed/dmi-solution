@@ -1,0 +1,23 @@
+{
+  "name": "dmi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahinwaleed/dmi-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahinwaleed/dmi-demo/issues"
+  },
+  "homepage": "https://github.com/shahinwaleed/dmi-demo#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}
